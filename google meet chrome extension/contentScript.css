@@ -1,0 +1,8 @@
+.rustyZone-element{
+    border: none;
+    padding-left: 10px;
+    padding-right:10px;
+    color: white;
+    background-color: tomato;
+    z-index: 999;
+}
