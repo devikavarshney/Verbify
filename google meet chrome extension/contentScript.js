@@ -1,4 +1,5 @@
 const init = function(){
+    // horizontal line
     const injectElement = document.createElement("button");
     injectElement.className="rustyZone-element";
     injectElement.innerHTML="Cam";
@@ -28,8 +29,8 @@ function checkIfExists() {
         init();
         document.getElementById("btn").addEventListener("click",function(){
             if(document.getElementById("btn").classList.contains("rustyZone-element-clicked")){
-                document.getElementById("btn").classList.remove("rustyZone-element-clicked");
                 document.getElementById("btn").classList.add("rustyZone-element");
+                document.getElementById("btn").classList.remove("rustyZone-element-clicked");
             }
             else{
             document.getElementById("btn").classList.add("rustyZone-element-clicked");
@@ -40,8 +41,8 @@ function checkIfExists() {
         // forSecondButton
         document.getElementById("btn2").addEventListener("click",function(){
             if(document.getElementById("btn2").classList.contains("rustyZone-element-clicked")){
-                document.getElementById("btn2").classList.remove("rustyZone-element-clicked");
                 document.getElementById("btn2").classList.add("rustyZone-element");
+                document.getElementById("btn2").classList.remove("rustyZone-element-clicked");
             }
             else{
             document.getElementById("btn2").classList.add("rustyZone-element-clicked");
@@ -52,8 +53,8 @@ function checkIfExists() {
         //forThirdButton
         document.getElementById("btn3").addEventListener("click",function(){
             if(document.getElementById("btn3").classList.contains("rustyZone-element-clicked")){
-                document.getElementById("btn3").classList.remove("rustyZone-element-clicked");
                 document.getElementById("btn3").classList.add("rustyZone-element");
+                document.getElementById("btn3").classList.remove("rustyZone-element-clicked");
             }
             else{
             document.getElementById("btn3").classList.add("rustyZone-element-clicked");
